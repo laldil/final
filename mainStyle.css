@@ -214,8 +214,8 @@ ul li{
 }
 @media (max-width:575px){
     .setOfFilms{
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
     .titleText{
         margin-top: 10%;
