@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Montserrat:wght@300&display=swap');
+
+#fixBody{
+    margin: 0px;
+    background-color: #EEEEEE;
+    font-family: Montserrat;
+}
+
+.mainBar{
+    top: 0px;
+    height: 65px;
+    width: 100%;
+    background-color: #393E46;
+    border-style: none none solid none;
+    border-color: #00ADB5;
+    position: fixed;
+    opacity: 0.98;
+    text-align: center;
+}
+
+.photoBar{
+   
+    height: 100vh;
+    background: url(https://horrorzone.ru/uploads/_pages3/91161/kino.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.textblock{
+    margin-top: 250px;
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 30px;
+}
+.topButton{
+    height: 60px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.1rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #00ADB5; 
+    color: #EEEEEE; 
+    border: 2px solid #00ADB5;
+    border-bottom: none;
+    
+}
+.topButton:hover {
+    background-color: #EEEEEE;
+    color: #00ADB5;
+}
+a.topButtonLink:link{
+    color:unset;
+    text-decoration: none;
+}
+a.topButtonLink:visited{
+    color:unset;
+    text-decoration: none;
+}
+a.topButtonLink:hover{
+    color: unset;
+    text-decoration: none;
+}
+
+
+.titleText{
+    text-align: center;
+    margin-top: 50px;
+    font-family: Asap;
+}
+
+.navbar{
+    padding: 0px;
+    background-color: #393E46;
+    border-style: none none solid none;
+    border-color: #00ADB5;
+    opacity: 0.98;
+}
+
+.setOfFilms{
+    height: auto;
+    width: auto;
+    margin: 2% 16% 0 16%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: #00ADB5;
+    border-radius: 0.5rem;
+}
+
+
+.filmBlock{
+    height: 315px;
+    width: 315px;
+    margin-left: 1%;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.filmImage{
+    width: 200px;
+    height: 250px;
+    margin-left: 50px;
+    border-style: ridge;
+    border-color: #222831;
+}
+
+.download-button {
+    margin: 1% 2% 0 0;
+}  
+
+.filmName{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.filmDescription{
+    margin-top: 0px;
+    font-size: 0.8rem;
+    color: slategray;
+    text-align: center;
+}
+
+a.linkToFilm:link{
+    color:unset;
+    text-decoration: none;
+}
+a.linkToFilm:visited{
+    color:unset;
+    text-decoration: none;
+}
+a.linkToFilm:hover{
+    color: slategray;
+}
+.end{
+    border-style: solid none none none;
+    border-color: #00ADB5;
+    margin-top: 20px;
+    background-color: #393E46;
+    height: 200px;
+}
+
+ul li{
+    color: #EEEEEE;
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+.endLink{
+    color: unset;
+    text-decoration: none;
+}
+.endLink:visited{
+    color: unset;
+    text-decoration: none;
+}
+.endLink:hover{
+    color: #00ADB5;
+}
+

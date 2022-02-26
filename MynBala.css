@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Montserrat:wght@300&display=swap');
+
+#fixBody{
+    margin: 0px;
+    background-color: #EEEEEE;
+    font-family: Montserrat;
+}
+
+.mainBar{
+    top: 0px;
+    height: 65px;
+    width: 100%;
+    background-color: #393E46;
+    border-style: none none solid none;
+    border-color: #00ADB5;
+    position: fixed;
+    opacity: 0.98;
+    text-align: center;
+}
+
+.topButton{
+    height: 65px;
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    background-color: #00ADB5; 
+    color: #EEEEEE; 
+    border: 2px solid #00ADB5;
+    border-bottom: none;
+    margin-left: 2%;
+}
+.topButton:hover {
+    background-color: #EEEEEE;
+    color: #00ADB5;
+}
+
+a.linkToPage:link{
+    color:unset;
+    text-decoration: none;
+}
+a.linkToPage:hover{
+    text-decoration: none;
+}
+a.linkToPage:visited{
+    color:unset;
+    text-decoration: none;
+}
+
+.setOfFilms{
+    background-color: #EEEEEE;
+    border: 2px solid #00ADB5;
+    margin: 100px 100px 50px 100px;
+    height: 500px;
+}
+
+.filmBlock{
+    width: 120px;
+    height: 86%;
+    border: 2px solid black;
+    margin-top: 1%;
+    margin-left: 50px;
+    border-radius: 3px;
+}
+
+.mainSection{
+    background-color: #EEEEEE;
+    margin: 0px 100px;
+    border: solid 2px #00ADB5;
+    border-radius: 3px;
+    padding: 0 2rem;
+}
+
+.mainFilmImg{
+    width: 25%;
+    height: 25%;
+    border: 2px solid black;
+    float: left;
+    margin-right: 20px;
+}
+
+.epButton{
+    margin-top: 1rem;
+    text-align: center;
+    color: #EEEEEE;
+    background-color: #00ADB5;
+    border: 2px solid #393E46;
+    transition-duration: 0.4s;
+    padding: 0.5rem 0.5rem;
+    width: 15%;
+}
+
+.epButton:hover {
+    background-color: #EEEEEE;
+    color: #00ADB5;
+}
+
+a.linkToAd:link{
+    color:unset;
+    text-decoration: none;
+}
+a.linkToAd:hover{
+    opacity: 0.5;
+    text-decoration: none;
+}
+a.linkToAd:visited{
+    color:unset;
+    text-decoration: none;
+}
+
+.end{
+    border-style: solid none none none;
+    border-color: #00ADB5;
+    margin-top: 20px;
+    background-color: #393E46;
+    height: 200px;
+}
+
+ul li{
+    color: #EEEEEE;
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+.endLink{
+    color: unset;
+    text-decoration: none;
+}
+.endLink:visited{
+    color: unset;
+    text-decoration: none;
+}
+.endLink:hover{
+    color: #00ADB5;
+}
+.carousel {
+  width:640px;
+  height:360px;
+  margin: auto;
+}
+
+.carousel-control-prev {
+    left: -100px;
+	filter: invert(1);
+}
+ 
+.carousel-control-next {
+    right: -100px;
+	filter: invert(1);
+}

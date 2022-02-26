@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Montserrat:wght@300&display=swap');
+
+h4{
+    font-family: Asap;
+}
+
+#fixBody{
+    margin: 0 0 0 0;
+    background-color: #EEEEEE;
+    font-family: Montserrat;
+}
+
+
+.navbar{
+    padding: 0px;
+    background-color: #393E46;
+    border-style: none none solid none;
+    border-color: #00ADB5;
+    opacity: 0.98;
+}
+
+.topButton{
+    height: 65px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.1rem;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #00ADB5; 
+    color: #EEEEEE; 
+    border: 2px solid #00ADB5;
+    border-bottom: none;
+}
+.topButton:hover {
+    background-color: #EEEEEE;
+    color: #00ADB5;
+}
+
+.titleText{
+    color: #222831;
+    text-align: center;
+    margin-top: 90px;
+    font-family: Montserrat;
+    font-weight: bold;
+}
+
+.setOfFilms{
+    height: auto;
+    width: auto;
+    margin: 2% 16% 0 16%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-color: #00ADB5;
+    border-radius: 0.5rem;
+}
+
+.filmBlock{
+    height: 315px;
+    width: 315px;
+    margin-top: 1%;
+    display: inline-block;
+}
+
+.filmImage{
+    width: 200px;
+    height: 250px;
+    border-style: ridge;
+    border-color: #222831;
+    text-align: center;
+}
+
+.fixImg{
+    text-align: center;
+    margin: 0;
+}
+
+.card{
+    background-color: #EEEEEE;
+    border: none;
+}
+
+.card-text{
+    font-size: 0.8rem;
+    color:slategray;
+    text-align: center;
+}
+
+.filmName{
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+a.linkToFilm:link{
+    color:unset;
+    text-decoration: none;
+}
+a.linkToFilm:visited{
+    color:unset;
+    text-decoration: none;
+}
+a.linkToFilm:hover{
+    color: slategray;
+}
+
+
+
+.currentPageNumber{
+    text-align: center;
+    color: #EEEEEE;
+    background-color: #00ADB5;
+    border: 2px;
+    border-style: ridge;
+    border-color: #393E46;
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-family: Asap;
+}
+
+a.linkToPage:link{
+    color:unset;
+    text-decoration: none;
+}
+a.linkToPage:visited{
+    color:unset;
+    text-decoration: none;
+}
+a.linkToPage:hover{
+    color: slategray;
+    text-decoration: underline;
+}
+
+.end{
+    border-style: solid none none none;
+    border-color: #00ADB5;
+    margin-top: 20px;
+    background-color: #393E46;
+    height: 200px;
+}
+
+ul li{
+    color: #EEEEEE;
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+.endLink{
+    color: unset;
+    text-decoration: none;
+}
+.endLink:visited{
+    color: unset;
+    text-decoration: none;
+}
+.endLink:hover{
+    color: #00ADB5;
+    text-decoration: none;
+}
